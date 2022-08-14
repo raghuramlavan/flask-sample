@@ -13,7 +13,7 @@ spec:
         app: flask-sample 
     spec: 
       containers: 
-      - name: angular 
+      - name: flask-sample 
         image: raghuramlavan/flask-sample:latest
         ports: 
         - containerPort: 80 
